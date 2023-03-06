@@ -1,0 +1,21 @@
+{
+    "name": "morsvox/ip-range-checker",
+    "description": "This package is a little helper to check if a given IP address is in a certain IP range.",
+    "license": "MIT",
+    "keywords": ["ip", "ip address", "range", "check"],
+    "authors": [
+        {
+            "name": "Ilker Mutlu",
+            "email": "ilker.mutlu@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilkermutlu\\IPRangeChecker\\": "src/"
+         }
+     }
+}
